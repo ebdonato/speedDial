@@ -1,4 +1,4 @@
-# mylinks
+# SpeedDial
 
 ## Project setup
 ```
