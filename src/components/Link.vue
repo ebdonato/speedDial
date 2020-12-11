@@ -54,7 +54,7 @@ export default {
             // console.log(endPosition)
 
             const newUrl =
-                "http://www.google.com/s2/favicons?sz=64&domain_url=" +
+                "https://www.google.com/s2/favicons?sz=64&domain_url=" +
                 (startPosition ? "" : "https://") +
                 url.substr(0, endPosition)
             // console.log(newUrl)
