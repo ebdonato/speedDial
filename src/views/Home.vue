@@ -1,18 +1,28 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+    <div
+        class="home d-flex flex-wrap justify-center align-center align-content-center"
+    >
+        <Link v-for="(link, key) in getLinks" :key="key" :link="link" />
+    </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import { mapGetters } from "vuex"
+import Link from "@/components/Link"
 
 export default {
-  name: 'Home',
-  components: {
-    HelloWorld
-  }
+    name: "Home",
+    components: {
+        Link,
+    },
+    computed: {
+        ...mapGetters(["getLinks"]),
+    },
 }
 </script>
+
+<style scoped>
+.home {
+    height: 100%;
+}
+</style>
