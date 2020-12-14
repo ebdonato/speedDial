@@ -58,6 +58,14 @@ export default new Vuex.Store({
                 name: "Notion",
                 url: "https://www.notion.so/"
             },
+            {
+                name: "Whastapp",
+                url: "https://web.whatsapp.com/"
+            },
+            {
+                name: "Github",
+                url: "https://www.github.com/"
+            },
 
         ]
     },
