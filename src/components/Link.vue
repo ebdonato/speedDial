@@ -1,5 +1,13 @@
 <template>
-    <v-card class="ma-4" color="primary" width="400" :href="link.url" type="a">
+    <v-card
+        class="ma-4"
+        color="transparent"
+        dark
+        bordered
+        width="400"
+        :href="link.url"
+        type="a"
+    >
         <v-card-actions>
             <v-list-item class="grow">
                 <v-list-item-avatar rounded>
