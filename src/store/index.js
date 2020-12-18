@@ -7,10 +7,6 @@ export default new Vuex.Store({
     state: {
         links: [
             {
-                name: "LinkedIn",
-                url: "https://www.Linkedin.com/feed"
-            },
-            {
                 name: "Gmail",
                 url: "https://mail.google.com/mail/u/0/#inbox"
             },
@@ -61,10 +57,6 @@ export default new Vuex.Store({
             {
                 name: "Whastapp",
                 url: "https://web.whatsapp.com/"
-            },
-            {
-                name: "Github",
-                url: "https://www.github.com/"
             },
 
         ]
