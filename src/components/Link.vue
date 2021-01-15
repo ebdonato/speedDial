@@ -1,33 +1,21 @@
 <template>
-    <v-card
-        class="ma-4"
+    <v-btn
         color="transparent"
-        dark
-        bordered
-        width="400"
+        elevation="1"
+        class="mx-2 my-2 white--text"
         :href="link.url"
-        type="a"
+        min-width="300"
+        style="text-transform: none"
     >
-        <v-card-actions>
-            <v-list-item class="grow">
-                <v-list-item-avatar rounded>
-                    <v-img
-                        class="elevation-6"
-                        :alt="link.name"
-                        :src="getIconUrl(link.url)"
-                    ></v-img>
-                </v-list-item-avatar>
-
-                <v-list-item-content>
-                    <v-list-item-title
-                        ><span class="title font-weight-black">{{
-                            link.name
-                        }}</span></v-list-item-title
-                    >
-                </v-list-item-content>
-            </v-list-item>
-        </v-card-actions>
-    </v-card>
+        <v-img
+            :alt="link.name"
+            :src="getIconUrl(link.url)"
+            max-height="1rem"
+            max-width="1rem"
+            class="ma-4"
+        />
+        {{ link.name }}
+    </v-btn>
 </template>
 
 <script>

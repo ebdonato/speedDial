@@ -15,7 +15,7 @@ export default new Vuex.Store({
                 url: "https://outlook.live.com/mail/0/inbox"
             },
             {
-                name: "DI Mail",
+                name: "Donato Mail",
                 url: "https://www.donato.inf.br/app/roundcube/"
             },
             {
@@ -57,6 +57,14 @@ export default new Vuex.Store({
             {
                 name: "Whastapp",
                 url: "https://web.whatsapp.com/"
+            },
+            {
+                name: "Vercel",
+                url: "https://www.vercel.com/"
+            },
+            {
+                name: "Heroku",
+                url: "https://www.heroku.com/"
             },
 
         ]
